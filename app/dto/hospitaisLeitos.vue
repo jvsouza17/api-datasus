@@ -1,9 +1,9 @@
 <script setup lang="ts">
 /**
- * Tipagem limpa para uso interno na aplicação.
- * Os nomes aqui estão em camelCase e mais curtos que os campos originais da API.
+ * Interface que representa os dados de hospitais e leitos.
  */
 export interface HospitalLeitos {
+    id: string
     regiao: string
     uf: string
     municipio: string
